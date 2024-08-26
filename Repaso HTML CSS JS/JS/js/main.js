@@ -37,3 +37,7 @@ if (altura >= 185) {
 } else {
     datos.innerHTML += "<h2 class='mayus'>¡eres una persona bajita!</h2>";
 }
+
+
+// Bucles
+
