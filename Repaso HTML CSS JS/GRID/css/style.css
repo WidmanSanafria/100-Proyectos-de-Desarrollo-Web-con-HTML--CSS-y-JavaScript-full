@@ -1,0 +1,49 @@
+body {
+  background-color: aquamarine;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.caja {
+  border: 3px solid yellow;
+  background-color: cadetblue;
+  text-align: center;
+  float: inline-start;
+}
+
+.grid-layout {
+  height: 550px;
+  display: grid;
+  grid-template-areas:
+    "cabecera cabecera"
+    "menu menu"
+    "contenido lateral"
+    "footer";
+  grid-template-rows: 20% 10% auto 10%;
+  background-color: bisque;
+  border: 1px solid black;
+}
+.c1 {
+  /* grid-area: cabecera;*/
+  background: yellowgreen;
+}
+
+.c2 {
+  /* grid-area: menu;*/
+  background: orangered;
+}
+
+.c3 {
+  /* grid-area: contenido;*/
+  background: rgb(1, 252, 198);
+}
+
+.c4 {
+  /* grid-area: footer;/**/
+  background: violet;
+}
+
+.c5 {
+  background: rgb(0, 229, 255);
+}

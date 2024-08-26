@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: lightgrey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+  width: 70%;
+  margin: 0px auto;
+  border: 1px solid red;
+}
+header {
+  background-color: red;
+  height: 80px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  line-height: 80px;
+  text-transform: uppercase;
+  color: azure;
+  border-bottom: 3px dashed burlywood;
+}
+
+nav {
+  background: rgb(133, 10, 190);
+  height: 50px;
+  
+}
+
+nav ul li {
+  float: inline-start;
+  text-decoration: none;
+  font-size: medium;
+  list-style: none;
+  margin: 15px;
+  line-height: 25px;
+  color: antiquewhite;
+}
+.clearfix {
+  clear: both;
+}
+.article:first-child{
+    padding-bottom: 15px;
+    border-top: 1px solid rgb(69, 69, 21);
+
+}
+
+.article h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.article{
+    color: rgb(24, 61, 93);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(69, 69, 21);
+}
+
+#content{
+    float: left;
+    width: calc(80% - 50px);
+    background: greenyellow;
+    min-height: 520px;
+    padding: 25px;
+}
+aside{
+    float: left;
+    width: calc(20% - 30px);
+    background: orangered;
+    min-height: 520px;
+    padding: 15px;
+    padding-top: 25px;
+
+}
+footer{
+    background: rgb(65, 65, 65);
+    color: bisque;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    
+}

@@ -1,0 +1,49 @@
+body{
+    background: rgb(193, 107, 247);
+}
+.flex-container{
+    border: 1px solid black;
+    background: lightblue;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+    align-content: center;
+    
+}
+
+.caja{
+    border: 1px solid rgb(84, 82, 82);
+    background-color: lightcyan;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 7px;
+    
+
+}
+
+.c1{
+    background: rebeccapurple;
+    flex-grow: 1;
+}
+
+.c2{
+    background: lightsalmon;
+    flex-grow: 2;
+}
+.c3{
+    background: violet;
+    flex-grow: 3;
+
+}
+.c4{
+    background: burlywood;
+    flex-grow: 4;
+}
